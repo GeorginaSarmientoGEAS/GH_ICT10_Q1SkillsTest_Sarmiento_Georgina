@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.3/core.css">
+    <script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script>
+    <title>Skills Test Q1</title>
+    <style>
+        body {
+            background-image: url(https://images.pexels.com/photos/4887212/pexels-photo-4887212.jpeg?_gl=1*11mczby*_ga*MjA5NDU1ODY3My4xNzcxOTA4NjU0*_ga_8JE65Q40S6*czE3ODg5MTkwMjEkbzUkZzEkdDE3ODg5MTkxOTAkajE5JGwwJGgw);
+            background-repeat:no-repeat;
+            background-size:cover;
+            background-attachment: fixed;
+            color:black;
+            font-size: 20px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+    </style>
+</head>
+<body>
+    <center><div style="border-radius: 10px 10px 10px 10px; -webkit-border-radius: 10px 10px 10px 10px; -moz-border-radius: 10px 10px 10px 10px; background: #d59a6b; background: linear-gradient(180deg,#d59a6b 0%, #ffeec8 80%); background: -webkit-linear-gradient(180deg,#d59a6b 0%, #ffeec8 80%);background: -moz-linear-gradient(180deg,#d59a6b 0%, #ffeec8 80%); padding: 30px; margin: 100px;">
+    <h1 style="font-family: cursive; color: black;">Honeybee Bakery</h1>
+        <Input type="checkbox" id="item1" value=120> 
+            <label id="item1-label">Honeycomb Vanilla Cake - ₱ 120 </label><br><br>
+        <input type="checkbox" id="item2" value=100>
+            <label id="item2-label"> Strawberry Shortcake - ₱ 100 </label><br><br>
+        <input type="checkbox" id="item3" value=105>
+            <label id="item3-label"> Apple Crumble Pie - ₱ 105 </label><br><br>
+        <input type="checkbox" id="item4" value=95>
+            <label id="item4-label"> Savory Egg Pie - ₱ 95 </label><br><br>
+        <input type="checkbox" id="item5" value=60>
+            <label id="item5-label"> Chocolate Chip Cookies - ₱ 60 </label><br><br>
+        <button type="submit" py-click="create_order">Check Out</button><br><br>
+    <div id="show"></div>
+    </div></center>
+    <py-script src="main.py"></py-script>
+</body>
+</html>
